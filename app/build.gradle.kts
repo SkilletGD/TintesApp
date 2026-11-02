@@ -93,4 +93,8 @@ dependencies {
 
     // Tooling Debug
     debugImplementation(libs.androidx.ui.tooling)
+
+    testImplementation("io.mockk:mockk:1.13.8") // Para crear los mocks
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3") // Para probar corrutinas
+    testImplementation("junit:junit:4.13.2") // El framework de pruebas
 }
